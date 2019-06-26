@@ -1,0 +1,1 @@
+SELECT user_name, SUBSTRING_INDEX(email,'@',-1) AS provider FROM users ORDER BY provider, user_name;
